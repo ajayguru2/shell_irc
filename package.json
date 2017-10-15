@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
+    "file-system": "^2.2.2",
     "openurl": "^1.1.1",
     "yargs": "^9.0.1"
   }
