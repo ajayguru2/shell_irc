@@ -4,9 +4,9 @@ var net = require('openurl');
 var fs = require('fs');
 var date = new Date();
 var time = date.getTime();
+var Scraper = require("image-scraper");
 
-
-// console.log(argv);
+console.log(argv);
 if (argv.t) {
     var tag = argv.t;
     console.log(tag);
@@ -40,8 +40,16 @@ if (argv.h){
 
 }
 
-
-
+// image scraper ni chalra
+// if (argv.i){
+//     var query = argv.i
+//     var scraper = new Scraper();
+//     scraper.address = `https://imgur.com/search?q=${query}`;
+//     scraper.on("image", (image) => {
+//         image.saveTo;
+//
+//     });
+// }
 
 
 
